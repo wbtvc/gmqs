@@ -1,5 +1,5 @@
-###gmqs
-golang mqtt server。
+#gmqs
+golang mqtt server.
 
-###License
-Apache Version 2.0 license
+##License
+Apache Version 2.0 license.
