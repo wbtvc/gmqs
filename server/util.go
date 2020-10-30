@@ -21,7 +21,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/wbtvc/gmqs/nuid"
+	"gmqs/nuid"
 )
 
 // Use nuid.

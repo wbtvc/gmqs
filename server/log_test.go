@@ -22,7 +22,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/wbtvc/gmqs/logger"
+	"gmqs/logger"
 )
 
 func TestSetLogger(t *testing.T) {

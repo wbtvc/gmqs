@@ -21,7 +21,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/wbtvc/gmqs/message"
+	"gmqs/message"
 )
 
 var (

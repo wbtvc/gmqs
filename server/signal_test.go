@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wbtvc/gmqs/logger"
+	"gmqs/logger"
 )
 
 func TestSignalToReOpenLogFile(t *testing.T) {

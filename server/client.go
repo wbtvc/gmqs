@@ -28,10 +28,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/wbtvc/gmqs/glog"
-	"github.com/wbtvc/gmqs/message"
-	"github.com/wbtvc/gmqs/sessions"
-	"github.com/wbtvc/gmqs/topics"
+	"gmqs/glog"
+	"gmqs/message"
+	"gmqs/sessions"
+	"gmqs/topics"
 )
 
 // Type of client connection.

@@ -32,9 +32,9 @@ import (
 	// Allow dynamic profiling.
 	_ "net/http/pprof"
 
-	"github.com/wbtvc/gmqs/sessions"
-	"github.com/wbtvc/gmqs/topics"
-	"github.com/wbtvc/gmqs/util"
+	"gmqs/sessions"
+	"gmqs/topics"
+	"gmqs/util"
 )
 
 // Info is the information sent to clients to help them understand information
@@ -232,7 +232,7 @@ func PrintAndDie(msg string) {
 
 // PrintServerAndExit will print our version and exit.
 func PrintServerAndExit() {
-	fmt.Printf("gmqs-server version %s\n", VERSION)
+	fmt.Printf("gmqs version %s\n", VERSION)
 	os.Exit(0)
 }
 
@@ -270,7 +270,7 @@ func (s *Server) logPid() error {
 // Start up the server, s will block.
 // Start via a Go routine if needed.
 func (s *Server) Start() {
-	s.Noticef("Starting gmqs-server version %s", VERSION)
+	s.Noticef("Starting gmqs version %s", VERSION)
 	s.Debugf("Go build version %s", s.info.GoVersion)
 	gc := gitCommit
 	if gc == "" {

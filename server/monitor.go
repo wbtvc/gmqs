@@ -25,7 +25,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/wbtvc/gmqs/server/pse"
+	"gmqs/server/pse"
 )
 
 // Snapshot this

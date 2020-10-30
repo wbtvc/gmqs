@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/wbtvc/gmqs/message"
+	"gmqs/message"
 )
 
 const (

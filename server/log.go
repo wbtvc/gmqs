@@ -18,7 +18,7 @@ import (
 	"os"
 	"sync/atomic"
 
-	srvlog "github.com/wbtvc/gmqs/logger"
+	srvlog "gmqs/logger"
 )
 
 // Logger interface of the NATS Server

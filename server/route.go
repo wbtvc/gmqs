@@ -27,7 +27,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/wbtvc/gmqs/util"
+	"gmqs/util"
 )
 
 // RouteType designates the router type

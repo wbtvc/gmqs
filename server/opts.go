@@ -27,8 +27,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/wbtvc/gmqs/conf"
-	"github.com/wbtvc/gmqs/util"
+	"gmqs/conf"
+	"gmqs/util"
 )
 
 // ClusterOpts are options for clusters.

@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/wbtvc/gmqs/message"
+	"gmqs/message"
 )
 
 var (
